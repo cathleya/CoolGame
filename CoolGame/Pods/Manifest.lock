@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (4.2.0)
+  - KeychainSwift (7.0.0)
+  - Reveal-iOS-SDK (1.6.2)
+  - SwifterSwift (1.2.2)
+  - SwiftSocket (1.2)
+  - SwiftyJSON (3.1.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.2.0)
+  - KeychainSwift (~> 7.0.0)
+  - Reveal-iOS-SDK
+  - SwifterSwift (~> 1.2.2)
+  - SwiftSocket (~> 1.2)
+  - SwiftyJSON (~> 3.1.3)
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  KeychainSwift: b6947435dd78cc442c64a84ae648dd0e871cf448
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
+  SwifterSwift: 52d518f650baf7fa8069dacfc802214b8e58b81c
+  SwiftSocket: 5052a3b10dbb9224cfb0875eb95940143252d458
+  SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
+
+PODFILE CHECKSUM: 1d2770793d505994b6175d85d8d82bcb390cc48b
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AABD167355931DDAF399B19 /* Pods_CoolGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE3B0CEC40E14D04D8613A6 /* Pods_CoolGame.framework */; };
+		CA2599EE1E36054C0042E87A /* logcheck_17@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2599EA1E36054C0042E87A /* logcheck_17@2x.png */; };
+		CA2599EF1E36054C0042E87A /* loghead@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2599EB1E36054C0042E87A /* loghead@2x.png */; };
+		CA2599F11E36054C0042E87A /* logpwd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2599ED1E36054C0042E87A /* logpwd@2x.png */; };
+		CA6882B71E6D60A40092E851 /* CoolGameModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA6882B51E6D60A40092E851 /* CoolGameModel.xcdatamodeld */; };
+		CA6882B91E6D62C30092E851 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6882B81E6D62C30092E851 /* CoreDataStack.swift */; };
+		CA71A9991E406E2800486E8A /* CGMateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71A9981E406E2800486E8A /* CGMateCell.swift */; };
+		CA744CDE1E1CB06C00B6F281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA744CDD1E1CB06C00B6F281 /* AppDelegate.swift */; };
+		CA744CE51E1CB06C00B6F281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA744CE41E1CB06C00B6F281 /* Assets.xcassets */; };
+		CA744D011E1CB7F300B6F281 /* CGBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA744D001E1CB7F300B6F281 /* CGBaseController.swift */; };
+		CA744D051E1CB82A00B6F281 /* CGMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA744D041E1CB82A00B6F281 /* CGMineVC.swift */; };
+		CA744D091E1CB85500B6F281 /* OGGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA744D081E1CB85500B6F281 /* OGGuideVC.swift */; };
+		CA744D0B1E1CB8E300B6F281 /* CGTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA744D0A1E1CB8E300B6F281 /* CGTabBarController.swift */; };
+		CA744D0D1E1CC09000B6F281 /* GlobalUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA744D0C1E1CC09000B6F281 /* GlobalUtil.swift */; };
+		CA744D111E1CD05400B6F281 /* CGMyBroadcastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA744D101E1CD05400B6F281 /* CGMyBroadcastVC.swift */; };
+		CA744D131E1CD08300B6F281 /* CGMateMomentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA744D121E1CD08300B6F281 /* CGMateMomentVC.swift */; };
+		CA744D151E1CD0A600B6F281 /* CGMyCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA744D141E1CD0A600B6F281 /* CGMyCollectionVC.swift */; };
+		CA744D171E1CD0C600B6F281 /* CGSettingCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA744D161E1CD0C600B6F281 /* CGSettingCenterVC.swift */; };
+		CA744D191E1CD0F900B6F281 /* CGRelatedMeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA744D181E1CD0F900B6F281 /* CGRelatedMeVC.swift */; };
+		CA7750081E3058DA006D26C7 /* CGChatRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7750061E3058DA006D26C7 /* CGChatRoomVC.swift */; };
+		CA7750091E3058DA006D26C7 /* CGMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7750071E3058DA006D26C7 /* CGMessageVC.swift */; };
+		CA77500D1E3058FD006D26C7 /* CGChatRevCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77500A1E3058FD006D26C7 /* CGChatRevCell.swift */; };
+		CA77500E1E3058FD006D26C7 /* CGChatSenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77500B1E3058FD006D26C7 /* CGChatSenCell.swift */; };
+		CA77500F1E3058FD006D26C7 /* CGMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77500C1E3058FD006D26C7 /* CGMessageCell.swift */; };
+		CA7750111E30593D006D26C7 /* CGMates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7750101E30593D006D26C7 /* CGMates.swift */; };
+		CA7750181E30CB7B006D26C7 /* CGLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7750171E30CB7B006D26C7 /* CGLoginVC.swift */; };
+		CA783E7C1E248F500056031F /* left_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA783E7B1E248F500056031F /* left_back@2x.png */; };
+		CA84926D1E25E4DC002E5709 /* sender@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA84926B1E25E4DC002E5709 /* sender@2x.png */; };
+		CA8492701E25E6D0002E5709 /* reciever@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA84926F1E25E6D0002E5709 /* reciever@2x.png */; };
+		CAA11A121E6914B00031044A /* CGCreateMateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA11A111E6914B00031044A /* CGCreateMateVC.swift */; };
+		CAA11A191E69429F0031044A /* icon4_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA11A131E69429F0031044A /* icon4_1@2x.png */; };
+		CAA11A1A1E69429F0031044A /* icon4_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA11A141E69429F0031044A /* icon4_2@2x.png */; };
+		CAA11A1B1E69429F0031044A /* icon3_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA11A151E69429F0031044A /* icon3_2@2x.png */; };
+		CAA11A1C1E69429F0031044A /* icon1_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA11A161E69429F0031044A /* icon1_1@2x.png */; };
+		CAA11A1D1E69429F0031044A /* icon1_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA11A171E69429F0031044A /* icon1_2@2x.png */; };
+		CAA11A1E1E69429F0031044A /* icon3_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA11A181E69429F0031044A /* icon3_1@2x.png */; };
+		CAAB93001E616AC000FAE26F /* CGAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB92FF1E616AC000FAE26F /* CGAppConfig.swift */; };
+		CAEA79051E238C820061D563 /* CGCoreSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEA79041E238C820061D563 /* CGCoreSocket.swift */; };
+		CAECF0F01E3F4A8B00CBFA93 /* EXAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAECF0EF1E3F4A8B00CBFA93 /* EXAlert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9058246B9ADC05474A2EEC58 /* Pods-CoolGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolGame/Pods-CoolGame.debug.xcconfig"; sourceTree = "<group>"; };
+		BFE3B0CEC40E14D04D8613A6 /* Pods_CoolGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2599EA1E36054C0042E87A /* logcheck_17@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logcheck_17@2x.png"; sourceTree = "<group>"; };
+		CA2599EB1E36054C0042E87A /* loghead@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loghead@2x.png"; sourceTree = "<group>"; };
+		CA2599ED1E36054C0042E87A /* logpwd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logpwd@2x.png"; sourceTree = "<group>"; };
+		CA6882B61E6D60A40092E851 /* CoolGameModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoolGameModel.xcdatamodel; sourceTree = "<group>"; };
+		CA6882B81E6D62C30092E851 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		CA71A9981E406E2800486E8A /* CGMateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMateCell.swift; sourceTree = "<group>"; };
+		CA744CDA1E1CB06C00B6F281 /* CoolGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA744CDD1E1CB06C00B6F281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA744CE41E1CB06C00B6F281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA744CE91E1CB06C00B6F281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA744D001E1CB7F300B6F281 /* CGBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGBaseController.swift; sourceTree = "<group>"; };
+		CA744D041E1CB82A00B6F281 /* CGMineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMineVC.swift; sourceTree = "<group>"; };
+		CA744D081E1CB85500B6F281 /* OGGuideVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OGGuideVC.swift; sourceTree = "<group>"; };
+		CA744D0A1E1CB8E300B6F281 /* CGTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGTabBarController.swift; sourceTree = "<group>"; };
+		CA744D0C1E1CC09000B6F281 /* GlobalUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalUtil.swift; sourceTree = "<group>"; };
+		CA744D101E1CD05400B6F281 /* CGMyBroadcastVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMyBroadcastVC.swift; sourceTree = "<group>"; };
+		CA744D121E1CD08300B6F281 /* CGMateMomentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMateMomentVC.swift; sourceTree = "<group>"; };
+		CA744D141E1CD0A600B6F281 /* CGMyCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMyCollectionVC.swift; sourceTree = "<group>"; };
+		CA744D161E1CD0C600B6F281 /* CGSettingCenterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSettingCenterVC.swift; sourceTree = "<group>"; };
+		CA744D181E1CD0F900B6F281 /* CGRelatedMeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRelatedMeVC.swift; sourceTree = "<group>"; };
+		CA7750061E3058DA006D26C7 /* CGChatRoomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGChatRoomVC.swift; sourceTree = "<group>"; };
+		CA7750071E3058DA006D26C7 /* CGMessageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMessageVC.swift; sourceTree = "<group>"; };
+		CA77500A1E3058FD006D26C7 /* CGChatRevCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGChatRevCell.swift; sourceTree = "<group>"; };
+		CA77500B1E3058FD006D26C7 /* CGChatSenCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGChatSenCell.swift; sourceTree = "<group>"; };
+		CA77500C1E3058FD006D26C7 /* CGMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMessageCell.swift; sourceTree = "<group>"; };
+		CA7750101E30593D006D26C7 /* CGMates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMates.swift; sourceTree = "<group>"; };
+		CA7750171E30CB7B006D26C7 /* CGLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGLoginVC.swift; sourceTree = "<group>"; };
+		CA783E7B1E248F500056031F /* left_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left_back@2x.png"; sourceTree = "<group>"; };
+		CA84926B1E25E4DC002E5709 /* sender@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sender@2x.png"; sourceTree = "<group>"; };
+		CA84926F1E25E6D0002E5709 /* reciever@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reciever@2x.png"; sourceTree = "<group>"; };
+		CAA11A111E6914B00031044A /* CGCreateMateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGCreateMateVC.swift; sourceTree = "<group>"; };
+		CAA11A131E69429F0031044A /* icon4_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon4_1@2x.png"; sourceTree = "<group>"; };
+		CAA11A141E69429F0031044A /* icon4_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon4_2@2x.png"; sourceTree = "<group>"; };
+		CAA11A151E69429F0031044A /* icon3_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon3_2@2x.png"; sourceTree = "<group>"; };
+		CAA11A161E69429F0031044A /* icon1_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1_1@2x.png"; sourceTree = "<group>"; };
+		CAA11A171E69429F0031044A /* icon1_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1_2@2x.png"; sourceTree = "<group>"; };
+		CAA11A181E69429F0031044A /* icon3_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon3_1@2x.png"; sourceTree = "<group>"; };
+		CAAB92FF1E616AC000FAE26F /* CGAppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGAppConfig.swift; sourceTree = "<group>"; };
+		CAEA79041E238C820061D563 /* CGCoreSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGCoreSocket.swift; sourceTree = "<group>"; };
+		CAECF0EF1E3F4A8B00CBFA93 /* EXAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXAlert.swift; sourceTree = "<group>"; };
+		E2D6CDA0FBD748D96F271512 /* Pods-CoolGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolGame/Pods-CoolGame.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA744CD71E1CB06C00B6F281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AABD167355931DDAF399B19 /* Pods_CoolGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE57CCB667A219294CD117F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9058246B9ADC05474A2EEC58 /* Pods-CoolGame.debug.xcconfig */,
+				E2D6CDA0FBD748D96F271512 /* Pods-CoolGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA2599E91E36054C0042E87A /* RandL */ = {
+			isa = PBXGroup;
+			children = (
+				CA2599EA1E36054C0042E87A /* logcheck_17@2x.png */,
+				CA2599EB1E36054C0042E87A /* loghead@2x.png */,
+				CA2599ED1E36054C0042E87A /* logpwd@2x.png */,
+			);
+			name = RandL;
+			path = ULRandL;
+			sourceTree = "<group>";
+		};
+		CA744CD11E1CB06C00B6F281 = {
+			isa = PBXGroup;
+			children = (
+				CA744CDC1E1CB06C00B6F281 /* CoolGame */,
+				CA744CDB1E1CB06C00B6F281 /* Products */,
+				BE57CCB667A219294CD117F9 /* Pods */,
+				D0AFCA35E55938A46FA74C82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA744CDB1E1CB06C00B6F281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA744CDA1E1CB06C00B6F281 /* CoolGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA744CDC1E1CB06C00B6F281 /* CoolGame */ = {
+			isa = PBXGroup;
+			children = (
+				CA744CEF1E1CB77D00B6F281 /* CGVenders */,
+				CA744CF01E1CB77D00B6F281 /* Classes */,
+				CA744CF91E1CB77D00B6F281 /* CoreExcess */,
+				CA744CFA1E1CB77D00B6F281 /* Resources */,
+				CA744CDD1E1CB06C00B6F281 /* AppDelegate.swift */,
+				CA6882B51E6D60A40092E851 /* CoolGameModel.xcdatamodeld */,
+				CA744CE41E1CB06C00B6F281 /* Assets.xcassets */,
+				CA744CE91E1CB06C00B6F281 /* Info.plist */,
+			);
+			path = CoolGame;
+			sourceTree = "<group>";
+		};
+		CA744CEF1E1CB77D00B6F281 /* CGVenders */ = {
+			isa = PBXGroup;
+			children = (
+				CAECF0EF1E3F4A8B00CBFA93 /* EXAlert.swift */,
+				CA744D0C1E1CC09000B6F281 /* GlobalUtil.swift */,
+				CA6882B81E6D62C30092E851 /* CoreDataStack.swift */,
+			);
+			path = CGVenders;
+			sourceTree = "<group>";
+		};
+		CA744CF01E1CB77D00B6F281 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CA744CF11E1CB77D00B6F281 /* Controllers */,
+				CA744CF71E1CB77D00B6F281 /* Modes */,
+				CA744CF81E1CB77D00B6F281 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CA744CF11E1CB77D00B6F281 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA7750161E30CAF1006D26C7 /* Login */,
+				CA744CF61E1CB77D00B6F281 /* RootAndNavigator */,
+				CA744CF21E1CB77D00B6F281 /* Guid */,
+				CA7750021E305836006D26C7 /* Mates */,
+				CA7750031E305836006D26C7 /* Message */,
+				CA744CF41E1CB77D00B6F281 /* Mine */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CA744CF21E1CB77D00B6F281 /* Guid */ = {
+			isa = PBXGroup;
+			children = (
+				CA744D081E1CB85500B6F281 /* OGGuideVC.swift */,
+			);
+			path = Guid;
+			sourceTree = "<group>";
+		};
+		CA744CF41E1CB77D00B6F281 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				CA744D041E1CB82A00B6F281 /* CGMineVC.swift */,
+				CA744D181E1CD0F900B6F281 /* CGRelatedMeVC.swift */,
+				CA744D121E1CD08300B6F281 /* CGMateMomentVC.swift */,
+				CA744D141E1CD0A600B6F281 /* CGMyCollectionVC.swift */,
+				CA744D101E1CD05400B6F281 /* CGMyBroadcastVC.swift */,
+				CA744D161E1CD0C600B6F281 /* CGSettingCenterVC.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		CA744CF61E1CB77D00B6F281 /* RootAndNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				CA744D001E1CB7F300B6F281 /* CGBaseController.swift */,
+				CA744D0A1E1CB8E300B6F281 /* CGTabBarController.swift */,
+			);
+			path = RootAndNavigator;
+			sourceTree = "<group>";
+		};
+		CA744CF71E1CB77D00B6F281 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modes;
+			sourceTree = "<group>";
+		};
+		CA744CF81E1CB77D00B6F281 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA7750041E30584A006D26C7 /* Mates */,
+				CA7750051E30584A006D26C7 /* Message */,
+				CAEA79071E238FF30061D563 /* Mine */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA744CF91E1CB77D00B6F281 /* CoreExcess */ = {
+			isa = PBXGroup;
+			children = (
+				CAEA79041E238C820061D563 /* CGCoreSocket.swift */,
+				CAAB92FF1E616AC000FAE26F /* CGAppConfig.swift */,
+			);
+			path = CoreExcess;
+			sourceTree = "<group>";
+		};
+		CA744CFA1E1CB77D00B6F281 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA2599E91E36054C0042E87A /* RandL */,
+				CA744CFB1E1CB77D00B6F281 /* Guid */,
+				CA744CFC1E1CB77D00B6F281 /* Home */,
+				CA744CFD1E1CB77D00B6F281 /* Mine */,
+				CA744CFE1E1CB77D00B6F281 /* Original */,
+				CA744CFF1E1CB77D00B6F281 /* RootAndNavigator */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CA744CFB1E1CB77D00B6F281 /* Guid */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Guid;
+			sourceTree = "<group>";
+		};
+		CA744CFC1E1CB77D00B6F281 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CA744CFD1E1CB77D00B6F281 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				CA84926F1E25E6D0002E5709 /* reciever@2x.png */,
+				CA84926B1E25E4DC002E5709 /* sender@2x.png */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		CA744CFE1E1CB77D00B6F281 /* Original */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Original;
+			sourceTree = "<group>";
+		};
+		CA744CFF1E1CB77D00B6F281 /* RootAndNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				CAA11A131E69429F0031044A /* icon4_1@2x.png */,
+				CAA11A141E69429F0031044A /* icon4_2@2x.png */,
+				CAA11A151E69429F0031044A /* icon3_2@2x.png */,
+				CAA11A161E69429F0031044A /* icon1_1@2x.png */,
+				CAA11A171E69429F0031044A /* icon1_2@2x.png */,
+				CAA11A181E69429F0031044A /* icon3_1@2x.png */,
+				CA783E7B1E248F500056031F /* left_back@2x.png */,
+			);
+			path = RootAndNavigator;
+			sourceTree = "<group>";
+		};
+		CA7750021E305836006D26C7 /* Mates */ = {
+			isa = PBXGroup;
+			children = (
+				CA7750101E30593D006D26C7 /* CGMates.swift */,
+				CAA11A111E6914B00031044A /* CGCreateMateVC.swift */,
+			);
+			path = Mates;
+			sourceTree = "<group>";
+		};
+		CA7750031E305836006D26C7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				CA7750061E3058DA006D26C7 /* CGChatRoomVC.swift */,
+				CA7750071E3058DA006D26C7 /* CGMessageVC.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		CA7750041E30584A006D26C7 /* Mates */ = {
+			isa = PBXGroup;
+			children = (
+				CA71A9981E406E2800486E8A /* CGMateCell.swift */,
+			);
+			path = Mates;
+			sourceTree = "<group>";
+		};
+		CA7750051E30584A006D26C7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				CA77500A1E3058FD006D26C7 /* CGChatRevCell.swift */,
+				CA77500B1E3058FD006D26C7 /* CGChatSenCell.swift */,
+				CA77500C1E3058FD006D26C7 /* CGMessageCell.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		CA7750161E30CAF1006D26C7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CA7750171E30CB7B006D26C7 /* CGLoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CAEA79071E238FF30061D563 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		D0AFCA35E55938A46FA74C82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFE3B0CEC40E14D04D8613A6 /* Pods_CoolGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA744CD91E1CB06C00B6F281 /* CoolGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA744CEC1E1CB06C00B6F281 /* Build configuration list for PBXNativeTarget "CoolGame" */;
+			buildPhases = (
+				6C015F22FCDE3F5BD651FE38 /* [CP] Check Pods Manifest.lock */,
+				CA744CD61E1CB06C00B6F281 /* Sources */,
+				CA744CD71E1CB06C00B6F281 /* Frameworks */,
+				CA744CD81E1CB06C00B6F281 /* Resources */,
+				C26DF7C6F33306E1DDC8524A /* [CP] Embed Pods Frameworks */,
+				4554C246457AFFBAAA9C4DBE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolGame;
+			productName = CoolGame;
+			productReference = CA744CDA1E1CB06C00B6F281 /* CoolGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA744CD21E1CB06C00B6F281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = herry;
+				TargetAttributes = {
+					CA744CD91E1CB06C00B6F281 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2RJ5CPXHD4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CA744CD51E1CB06C00B6F281 /* Build configuration list for PBXProject "CoolGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA744CD11E1CB06C00B6F281;
+			productRefGroup = CA744CDB1E1CB06C00B6F281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA744CD91E1CB06C00B6F281 /* CoolGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA744CD81E1CB06C00B6F281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA783E7C1E248F500056031F /* left_back@2x.png in Resources */,
+				CA2599EE1E36054C0042E87A /* logcheck_17@2x.png in Resources */,
+				CAA11A1A1E69429F0031044A /* icon4_2@2x.png in Resources */,
+				CA8492701E25E6D0002E5709 /* reciever@2x.png in Resources */,
+				CA2599EF1E36054C0042E87A /* loghead@2x.png in Resources */,
+				CAA11A1D1E69429F0031044A /* icon1_2@2x.png in Resources */,
+				CAA11A191E69429F0031044A /* icon4_1@2x.png in Resources */,
+				CA744CE51E1CB06C00B6F281 /* Assets.xcassets in Resources */,
+				CAA11A1C1E69429F0031044A /* icon1_1@2x.png in Resources */,
+				CAA11A1B1E69429F0031044A /* icon3_2@2x.png in Resources */,
+				CA84926D1E25E4DC002E5709 /* sender@2x.png in Resources */,
+				CAA11A1E1E69429F0031044A /* icon3_1@2x.png in Resources */,
+				CA2599F11E36054C0042E87A /* logpwd@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4554C246457AFFBAAA9C4DBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolGame/Pods-CoolGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C015F22FCDE3F5BD651FE38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C26DF7C6F33306E1DDC8524A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolGame/Pods-CoolGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA744CD61E1CB06C00B6F281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7750181E30CB7B006D26C7 /* CGLoginVC.swift in Sources */,
+				CA6882B71E6D60A40092E851 /* CoolGameModel.xcdatamodeld in Sources */,
+				CAECF0F01E3F4A8B00CBFA93 /* EXAlert.swift in Sources */,
+				CA744D111E1CD05400B6F281 /* CGMyBroadcastVC.swift in Sources */,
+				CA744D011E1CB7F300B6F281 /* CGBaseController.swift in Sources */,
+				CA744D131E1CD08300B6F281 /* CGMateMomentVC.swift in Sources */,
+				CA744D091E1CB85500B6F281 /* OGGuideVC.swift in Sources */,
+				CA744D0B1E1CB8E300B6F281 /* CGTabBarController.swift in Sources */,
+				CAA11A121E6914B00031044A /* CGCreateMateVC.swift in Sources */,
+				CA744D0D1E1CC09000B6F281 /* GlobalUtil.swift in Sources */,
+				CA7750111E30593D006D26C7 /* CGMates.swift in Sources */,
+				CA77500E1E3058FD006D26C7 /* CGChatSenCell.swift in Sources */,
+				CA744D051E1CB82A00B6F281 /* CGMineVC.swift in Sources */,
+				CA77500D1E3058FD006D26C7 /* CGChatRevCell.swift in Sources */,
+				CA744CDE1E1CB06C00B6F281 /* AppDelegate.swift in Sources */,
+				CA744D171E1CD0C600B6F281 /* CGSettingCenterVC.swift in Sources */,
+				CA744D151E1CD0A600B6F281 /* CGMyCollectionVC.swift in Sources */,
+				CAAB93001E616AC000FAE26F /* CGAppConfig.swift in Sources */,
+				CA77500F1E3058FD006D26C7 /* CGMessageCell.swift in Sources */,
+				CAEA79051E238C820061D563 /* CGCoreSocket.swift in Sources */,
+				CA6882B91E6D62C30092E851 /* CoreDataStack.swift in Sources */,
+				CA7750091E3058DA006D26C7 /* CGMessageVC.swift in Sources */,
+				CA744D191E1CD0F900B6F281 /* CGRelatedMeVC.swift in Sources */,
+				CA7750081E3058DA006D26C7 /* CGChatRoomVC.swift in Sources */,
+				CA71A9991E406E2800486E8A /* CGMateCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA744CEA1E1CB06C00B6F281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA744CEB1E1CB06C00B6F281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA744CED1E1CB06C00B6F281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9058246B9ADC05474A2EEC58 /* Pods-CoolGame.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2RJ5CPXHD4;
+				INFOPLIST_FILE = CoolGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = oriental.CoolGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CA744CEE1E1CB06C00B6F281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D6CDA0FBD748D96F271512 /* Pods-CoolGame.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2RJ5CPXHD4;
+				INFOPLIST_FILE = CoolGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = oriental.CoolGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA744CD51E1CB06C00B6F281 /* Build configuration list for PBXProject "CoolGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA744CEA1E1CB06C00B6F281 /* Debug */,
+				CA744CEB1E1CB06C00B6F281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA744CEC1E1CB06C00B6F281 /* Build configuration list for PBXNativeTarget "CoolGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA744CED1E1CB06C00B6F281 /* Debug */,
+				CA744CEE1E1CB06C00B6F281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA6882B51E6D60A40092E851 /* CoolGameModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA6882B61E6D60A40092E851 /* CoolGameModel.xcdatamodel */,
+			);
+			currentVersion = CA6882B61E6D60A40092E851 /* CoolGameModel.xcdatamodel */;
+			path = CoolGameModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA744CD21E1CB06C00B6F281 /* Project object */;
+}
